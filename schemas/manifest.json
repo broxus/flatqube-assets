@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^\\S.*\\S$"
+    },
+    "version": {
+      "type": "object",
+      "properties": {
+        "major": {
+          "type": "integer"
+        },
+        "minor": {
+          "type": "integer"
+        },
+        "patch": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "major",
+        "minor",
+        "patch"
+      ]
+    },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^\\S.*\\S$"
+      }
+    },
+    "logoURI": {
+      "type": "string",
+      "format": "uri"
+    },
+    "timestamp": {
+      "type": "string",
+      "pattern": "^\\S.*\\S$"
+    },
+    "tokens": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "pattern": "^\\S.*\\S$"
+          },
+          "chainId": {
+            "type": "integer"
+          },
+          "symbol": {
+            "type": "string",
+            "pattern": "^\\S.*\\S$"
+          },
+          "decimals": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "address": {
+            "type": "string",
+            "pattern": "^(-1|0):[0-9a-fA-F]{64}$"
+          },
+          "logoURI": {
+            "type": "string",
+            "format": "uri"
+          },
+          "version": {
+            "type": "integer"
+          },
+          "verified": {
+            "type": "boolean"
+          },
+          "vendor": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "chainId",
+          "symbol",
+          "decimals",
+          "address"
+        ]
+      }
+    }
+  },
+  "required": [
+    "name",
+    "version",
+    "keywords",
+    "timestamp",
+    "tokens"
+  ]
+}
