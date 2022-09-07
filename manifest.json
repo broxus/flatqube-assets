@@ -80,16 +80,6 @@
       "vendor": "broxus"
     },
     {
-      "name": "Uniswap V2: USDT-WTON",
-      "chainId": 1,
-      "symbol": "UNI-V2-USDT-WTON",
-      "decimals": 18,
-      "address": "0:1e6e1b3674b54753864af7b15072566ce632965bd83bab431a8ff86d68cf1657",
-      "version": 5,
-      "verified": true,
-      "vendor": "broxus"
-    },
-    {
       "name": "Bridge",
       "chainId": 1,
       "symbol": "BRIDGE",
@@ -112,56 +102,56 @@
       "vendor": "broxus"
     },
     {
-      "name": "Frax",
-      "chainId": 1,
-      "symbol": "FRAX",
-      "decimals": 18,
-      "address": "0:efed9f9a7e6c455ee60829fd003b2f42edda513c6f19a484f916b055e9aa58d2",
-      "logoURI": "https://raw.githubusercontent.com/broxus/flatqube-assets/master/icons/FRAX/logo.svg",
-      "version": 5,
-      "verified": true,
-      "vendor": "broxus"
-    },
-    {
-      "name": "Frax Share",
-      "chainId": 1,
-      "symbol": "FXS",
-      "decimals": 18,
-      "address": "0:c14e2f026feaae0f99b92c04ee421051a782fff60156ac8a586a12f63d7facef",
-      "logoURI": "https://raw.githubusercontent.com/broxus/flatqube-assets/master/icons/FXS/logo.svg",
-      "version": 5,
-      "verified": true,
-      "vendor": "broxus"
-    },
-    {
-      "name": "dArtflex Token",
-      "chainId": 1,
-      "symbol": "DAF",
-      "decimals": 18,
-      "address": "0:f48054939064d686a9ad68d96d9ab79e409b095557c06ab7f073097dade7057f",
-      "logoURI": "https://raw.githubusercontent.com/broxus/flatqube-assets/master/icons/DAF/logo.svg",
-      "version": 5,
-      "verified": true,
-      "vendor": "broxus"
-    },
-    {
-      "name": "STASIS EURS Token",
-      "chainId": 1,
-      "symbol": "EURS",
-      "decimals": 2,
-      "address": "0:00ca16398f314a9b3bed582dc69582515d866ededb6c4e18190f63b305cedf91",
-      "logoURI": "https://raw.githubusercontent.com/broxus/flatqube-assets/master/icons/EURS/logo.svg",
-      "version": 5,
-      "verified": true,
-      "vendor": "broxus"
-    },
-    {
       "name": "EUR-Fiat-Based",
       "chainId": 1,
       "symbol": "EUPi",
       "decimals": 8,
       "address": "0:0cfa60f9454b1b619938c4da6a138b1cc62da937b3f6c0506405daf2a88e0115",
       "logoURI": "https://raw.githubusercontent.com/broxus/flatqube-assets/master/icons/EUPi/logo.svg",
+      "version": 5,
+      "verified": true,
+      "vendor": "broxus"
+    },
+    {
+      "name": "EverStart",
+      "chainId": 1,
+      "symbol": "START",
+      "decimals": 9,
+      "address": "0:7d7af239168cfd06353c224aa8b5e805846ae5e556f66fa8e045b5e1ba29e82a",
+      "logoURI": "https://raw.githubusercontent.com/broxus/flatqube-assets/master/icons/START/logo.svg",
+      "version": 5,
+      "verified": false,
+      "vendor": "EverStart"
+    },
+    {
+      "name": "Black INK",
+      "chainId": 1,
+      "symbol": "INK",
+      "decimals": 9,
+      "address": "0:ba3df9da063c400bc934e35dc16c0ef13b4ca0bf44fa49501f0b5d628aa82fb2",
+      "logoURI": "https://raw.githubusercontent.com/broxus/flatqube-assets/master/icons/INK/logo.svg",
+      "version": 5,
+      "verified": false,
+      "vendor": "blackink.finance"
+    },
+    {
+      "name": "LEND",
+      "chainId": 1,
+      "symbol": "LEND",
+      "decimals": 9,
+      "address": "0:679a05316a324d0daa2724ab7d8e9768a2d1042863299323e969a174a8412a58",
+      "logoURI": "https://raw.githubusercontent.com/broxus/flatqube-assets/master/icons/LEND/logo.svg",
+      "version": 5,
+      "verified": false,
+      "vendor": "svoidev"
+    },
+    {
+      "name": "Frax",
+      "chainId": 1,
+      "symbol": "FRAX",
+      "decimals": 18,
+      "address": "0:efed9f9a7e6c455ee60829fd003b2f42edda513c6f19a484f916b055e9aa58d2",
+      "logoURI": "https://raw.githubusercontent.com/broxus/flatqube-assets/master/icons/FRAX/logo.svg",
       "version": 5,
       "verified": true,
       "vendor": "broxus"
@@ -188,37 +178,6 @@
       "verified": false
     },
     {
-      "name": "Grechcoin",
-      "chainId": 1,
-      "symbol": "GRE",
-      "decimals": 5,
-      "address": "0:fde4c629d6447fecd86d2cffe363d5f334030351022bad019e0f472212e9dc99",
-      "logoURI": "https://raw.githubusercontent.com/broxus/flatqube-assets/master/icons/GRE/logo.svg",
-      "version": 5,
-      "verified": false
-    },
-    {
-      "name": "BAPBAPA",
-      "chainId": 1,
-      "symbol": "BAPBAPA",
-      "decimals": 9,
-      "address": "0:9e0350c13cafe2bb55d906553fde5f357612e6dcb46c0c3440c7bfdda273ffdd",
-      "logoURI": "https://raw.githubusercontent.com/broxus/flatqube-assets/master/icons/BAPBAPA/logo.svg",
-      "version": 5,
-      "verified": false
-    },
-    {
-      "name": "Rum",
-      "chainId": 1,
-      "symbol": "RUM",
-      "decimals": 9,
-      "address": "0:38a4c196c7fe22cbf0cda034ddda284aa208e2dba7707b96f65914420ba3f580",
-      "logoURI": "https://raw.githubusercontent.com/broxus/flatqube-assets/master/icons/RUM/logo.svg",
-      "version": 5,
-      "verified": false,
-      "vendor": "svoidev"
-    },
-    {
       "name": "Tokenized US National Debt",
       "chainId": 1,
       "symbol": "DUSA",
@@ -227,39 +186,6 @@
       "logoURI": "https://raw.githubusercontent.com/broxus/flatqube-assets/master/icons/DUSA/logo.svg",
       "version": 5,
       "verified": false
-    },
-    {
-      "name": "COLA COIN",
-      "chainId": 1,
-      "symbol": "COLA",
-      "decimals": 9,
-      "address": "0:9dd2cd82cbfd74a963be1ef1fd1a1f3e25f60e0b8c742f8b862df378b9a5e265",
-      "logoURI": "https://raw.githubusercontent.com/broxus/flatqube-assets/master/icons/COLA/logo.svg",
-      "version": 5,
-      "verified": false,
-      "vendor": "svoidev"
-    },
-    {
-      "name": "LEND",
-      "chainId": 1,
-      "symbol": "LEND",
-      "decimals": 9,
-      "address": "0:679a05316a324d0daa2724ab7d8e9768a2d1042863299323e969a174a8412a58",
-      "logoURI": "https://raw.githubusercontent.com/broxus/flatqube-assets/master/icons/LEND/logo.svg",
-      "version": 5,
-      "verified": false,
-      "vendor": "svoidev"
-    },
-    {
-      "name": "THE MOON Token",
-      "chainId": 1,
-      "symbol": "MOON",
-      "decimals": 6,
-      "address": "0:b5ff077d8ac0160559bd3c945a2a824cda12ba93ae90c2697c890656d52fc7d0",
-      "logoURI": "https://raw.githubusercontent.com/broxus/flatqube-assets/master/icons/MOON/logo.svg",
-      "version": 5,
-      "verified": false,
-      "vendor": "themoon.land"
     },
     {
       "name": "SpartaCats",
@@ -284,26 +210,15 @@
       "vendor": "infam"
     },
     {
-      "name": "EverStart",
+      "name": "PileBlocks.com GameFi Play-to-Earn",
       "chainId": 1,
-      "symbol": "START",
+      "symbol": "PILE",
       "decimals": 9,
-      "address": "0:7d7af239168cfd06353c224aa8b5e805846ae5e556f66fa8e045b5e1ba29e82a",
-      "logoURI": "https://raw.githubusercontent.com/broxus/flatqube-assets/master/icons/START/logo.svg",
+      "address": "0:dbba0028173f5b8d09eb597e0cca88cb41a4875efdf8a1815bb31292f150f800",
+      "logoURI": "https://raw.githubusercontent.com/broxus/flatqube-assets/master/icons/PILE/logo.svg",
       "version": 5,
       "verified": false,
-      "vendor": "EverStart"
-    },
-    {
-      "name": "Black INK",
-      "chainId": 1,
-      "symbol": "INK",
-      "decimals": 9,
-      "address": "0:ba3df9da063c400bc934e35dc16c0ef13b4ca0bf44fa49501f0b5d628aa82fb2",
-      "logoURI": "https://raw.githubusercontent.com/broxus/flatqube-assets/master/icons/INK/logo.svg",
-      "version": 5,
-      "verified": false,
-      "vendor": "blackink.finance"
+      "vendor": ""
     }
   ]
 }
