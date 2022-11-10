@@ -124,17 +124,6 @@
       "vendor": "broxus"
     },
     {
-      "name": "EUR-Fiat-Based",
-      "chainId": 1,
-      "symbol": "EUPi",
-      "decimals": 8,
-      "address": "0:0cfa60f9454b1b619938c4da6a138b1cc62da937b3f6c0506405daf2a88e0115",
-      "logoURI": "https://raw.githubusercontent.com/broxus/flatqube-assets/master/icons/EUPi/logo.svg",
-      "version": 5,
-      "verified": true,
-      "vendor": "broxus"
-    },
-    {
       "name": "EverStart",
       "chainId": 1,
       "symbol": "START",
