@@ -1,0 +1,139 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "tokens": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "symbol": {
+            "type": "string"
+          },
+          "logoURI": {
+            "type": "string"
+          },
+          "tvm": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "chainId": {
+                    "type": "integer"
+                  },
+                  "address": {
+                    "type": "string"
+                  },
+                  "decimals": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "chainId",
+                  "address",
+                  "decimals"
+                ]
+              }
+            ]
+          },
+          "evm": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "chainId": {
+                    "type": "string"
+                  },
+                  "address": {
+                    "type": "string"
+                  },
+                  "decimals": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "chainId",
+                  "address",
+                  "decimals"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "chainId": {
+                    "type": "string"
+                  },
+                  "address": {
+                    "type": "string"
+                  },
+                  "decimals": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "chainId",
+                  "address",
+                  "decimals"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "chainId": {
+                    "type": "string"
+                  },
+                  "address": {
+                    "type": "string"
+                  },
+                  "decimals": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "chainId",
+                  "address",
+                  "decimals"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "chainId": {
+                    "type": "string"
+                  },
+                  "address": {
+                    "type": "string"
+                  },
+                  "decimals": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "chainId",
+                  "address",
+                  "decimals"
+                ]
+              }
+            ]
+          }
+        },
+        "required": [
+          "tvm",
+          "evm"
+        ]
+      }
+    }
+  },
+  "required": [
+    "name",
+    "tokens"
+  ]
+}
