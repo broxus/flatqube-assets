@@ -3,11 +3,11 @@
   "name": "Cross-chain swap tokens mapping",
   "tokens": [
     {
-      "name": "Tether",
-      "symbol": "USDT",
       "logoURI": "https://raw.githubusercontent.com/broxus/ton-assets/master/icons/USDTv3/logo.svg",
       "tvm": [
         {
+          "name": "Tether",
+          "symbol": "USDT",
           "chainId": 42,
           "address": "0:a519f99bb5d6d51ef958ed24d337ad75a1c770885dcd42d51d6663f9fcdacfb2",
           "decimals": 6
@@ -15,21 +15,29 @@
       ],
       "evm": [
         {
+          "name": "Tether USD",
+          "symbol": "USDT",
           "chainId": "1",
           "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
           "decimals": 6
         },
         {
+          "name": "(PoS) Tether USD",
+          "symbol": "USDT",
           "chainId": "137",
           "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
           "decimals": 6
         },
         {
+          "name": "Tether USD",
+          "symbol": "USDT",
           "chainId": "56",
           "address": "0x55d398326f99059ff775485246999027b3197955",
           "decimals": 18
         },
         {
+          "name": "Tether USD",
+          "symbol": "USDT.e",
           "chainId": "43114",
           "address": "0xc7198437980c041c805a1edcba50c1ce5db95118",
           "decimals": 6
@@ -37,11 +45,11 @@
       ]
     },
     {
-      "name": "USD Coin",
-      "symbol": "USDC",
       "logoURI": "https://raw.githubusercontent.com/broxus/ton-assets/master/icons/USDCv3/logo.svg",
       "tvm": [
         {
+          "name": "USD Coin",
+          "symbol": "USDC",
           "chainId": 42,
           "address": "0:c37b3fafca5bf7d3704b081fde7df54f298736ee059bf6d32fac25f5e6085bf6",
           "decimals": 6
@@ -49,26 +57,36 @@
       ],
       "evm": [
         {
+          "name": "USD Coin",
+          "symbol": "USDC",
           "chainId": "1",
           "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
           "decimals": 6
         },
         {
+          "name": "USD Coin (PoS)",
+          "symbol": "USDC",
           "chainId": "137",
           "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
           "decimals": 6
         },
         {
+          "name": "USD Coin",
+          "symbol": "USDC",
           "chainId": "250",
           "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
           "decimals": 6
         },
         {
+          "name": "USD Coin",
+          "symbol": "USDC",
           "chainId": "56",
           "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
           "decimals": 18
         },
         {
+          "name": "USD Coin",
+          "symbol": "USDC.e",
           "chainId": "43114",
           "address": "0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664",
           "decimals": 6
@@ -76,11 +94,11 @@
       ]
     },
     {
-      "name": "Dai Stablecoin",
-      "symbol": "DAI",
       "logoURI": "https://raw.githubusercontent.com/broxus/ton-assets/master/icons/DAIv3/logo.svg",
       "tvm": [
         {
+          "name": "Dai Stablecoin",
+          "symbol": "DAI",
           "chainId": 42,
           "address": "0:eb2ccad2020d9af9cec137d3146dde067039965c13a27d97293c931dae22b2b9",
           "decimals": 18
@@ -88,26 +106,36 @@
       ],
       "evm": [
         {
+          "name": "Dai Stablecoin",
+          "symbol": "DAI",
           "chainId": "1",
           "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
           "decimals": 18
         },
         {
+          "name": "(PoS) Dai Stablecoin",
+          "symbol": "DAI",
           "chainId": "137",
           "address": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
           "decimals": 18
         },
         {
+          "name": "Dai Stablecoin",
+          "symbol": "DAI",
           "chainId": "250",
           "address": "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e",
           "decimals": 18
         },
         {
+          "name": "Dai Token",
+          "symbol": "DAI",
           "chainId": "56",
           "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
           "decimals": 18
         },
         {
+          "name": "Dai Stablecoin",
+          "symbol": "DAI.e",
           "chainId": "43114",
           "address": "0xd586e7f844cea2f87f50152665bcbc2c279d8d70",
           "decimals": 18
@@ -115,11 +143,11 @@
       ]
     },
     {
-      "name": "Wrapped BTC",
-      "symbol": "WBTC",
       "logoURI": "https://raw.githubusercontent.com/broxus/ton-assets/master/icons/WBTCv3/logo.svg",
       "tvm": [
         {
+          "name": "Wrapped BTC",
+          "symbol": "WBTC",
           "chainId": 42,
           "address": "0:2ba32b75870d572e255809b7b423f30f36dd5dea075bd5f026863fceb81f2bcf",
           "decimals": 8
@@ -127,26 +155,36 @@
       ],
       "evm": [
         {
+          "name": "Wrapped BTC",
+          "symbol": "WBTC",
           "chainId": "1",
           "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
           "decimals": 8
         },
         {
+          "name": "(PoS) Wrapped BTC",
+          "symbol": "WBTC",
           "chainId": "137",
           "address": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
           "decimals": 8
         },
         {
+          "name": "Bitcoin",
+          "symbol": "BTC",
           "chainId": "250",
           "address": "0x321162cd933e2be498cd2267a90534a804051b11",
           "decimals": 8
         },
         {
+          "name": "BTCB Token",
+          "symbol": "BTCB",
           "chainId": "56",
           "address": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
           "decimals": 18
         },
         {
+          "name": "Wrapped BTC",
+          "symbol": "WBTC.e",
           "chainId": "43114",
           "address": "0x50b7545627a5162f82a992c33b87adc75187b218",
           "decimals": 8
@@ -154,11 +192,11 @@
       ]
     },
     {
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
       "logoURI": "https://raw.githubusercontent.com/broxus/ton-assets/master/icons/WETHv3/logo.svg",
       "tvm": [
         {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
           "chainId": 42,
           "address": "0:59b6b64ac6798aacf385ae9910008a525a84fc6dcf9f942ae81f8e8485fe160d",
           "decimals": 18
@@ -166,26 +204,36 @@
       ],
       "evm": [
         {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
           "chainId": "1",
           "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
           "decimals": 18
         },
         {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
           "chainId": "137",
           "address": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
           "decimals": 18
         },
         {
+          "name": "Ethereum",
+          "symbol": "ETH",
           "chainId": "250",
           "address": "0x74b23882a30290451a17c44f4f05243b6b58c76d",
           "decimals": 18
         },
         {
+          "name": "Ethereum Token",
+          "symbol": "ETH",
           "chainId": "56",
           "address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
           "decimals": 18
         },
         {
+          "name": "Wrapped Ether",
+          "symbol": "WETH.e",
           "chainId": "43114",
           "address": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",
           "decimals": 18
