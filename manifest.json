@@ -199,17 +199,6 @@
       "verified": false
     },
     {
-      "name": "SpartaCats",
-      "chainId": 1,
-      "symbol": "PURR",
-      "decimals": 18,
-      "address": "0:9d49206b0eaadc5125c6b5e30410505db7740f827857915922cdb7efe199b622",
-      "logoURI": "https://raw.githubusercontent.com/broxus/flatqube-assets/master/icons/PURR/logo.svg",
-      "version": 5,
-      "verified": false,
-      "vendor": "EverStart"
-    },
-    {
       "name": "PileBlocks.com GameFi Play-to-Earn",
       "chainId": 1,
       "symbol": "PILE",
