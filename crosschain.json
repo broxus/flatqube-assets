@@ -6,6 +6,13 @@
       "logoURI": "https://raw.githubusercontent.com/broxus/ton-assets/master/icons/USDTv3/logo.svg",
       "tvm": [
         {
+          "name": "Tether USD",
+          "symbol": "USDT",
+          "chainId": 1,
+          "address": "0:8a4ed4483500caf2d4bb4b56c84df41009cc3d0ed6a9de05d853e26a30faeced",
+          "decimals": 6
+        },
+        {
           "name": "Tether",
           "symbol": "USDT",
           "chainId": 42,
@@ -47,6 +54,13 @@
     {
       "logoURI": "https://raw.githubusercontent.com/broxus/ton-assets/master/icons/USDCv3/logo.svg",
       "tvm": [
+        {
+          "name": "USDC",
+          "symbol": "USDC",
+          "chainId": 1,
+          "address": "0:cda5e8d5953e1a09ffeb9f62316f2994019f10abe83c8f1b0aadfbc997bd79e6",
+          "decimals": 6
+        },
         {
           "name": "USD Coin",
           "symbol": "USDC",
@@ -96,6 +110,13 @@
     {
       "logoURI": "https://raw.githubusercontent.com/broxus/ton-assets/master/icons/DAIv3/logo.svg",
       "tvm": [
+        {
+          "name": "DAI",
+          "symbol": "DAI",
+          "chainId": 1,
+          "address": "0:0447c738d8549c5ea92f1c945628367db4adcc706685f760c93f8b236bf8e7e4",
+          "decimals": 18
+        },
         {
           "name": "Dai Stablecoin",
           "symbol": "DAI",
@@ -148,6 +169,13 @@
         {
           "name": "Wrapped BTC",
           "symbol": "WBTC",
+          "chainId": 1,
+          "address": "0:4ff3c0f078889cbda817a5f5f2651824dea11a84f3857df27e76fee37d541877",
+          "decimals": 8
+        },
+        {
+          "name": "Wrapped BTC",
+          "symbol": "WBTC",
           "chainId": 42,
           "address": "0:2ba32b75870d572e255809b7b423f30f36dd5dea075bd5f026863fceb81f2bcf",
           "decimals": 8
@@ -194,6 +222,13 @@
     {
       "logoURI": "https://raw.githubusercontent.com/broxus/ton-assets/master/icons/WETHv3/logo.svg",
       "tvm": [
+        {
+          "name": "Wrapped ETH",
+          "symbol": "WETH",
+          "chainId": 1,
+          "address": "0:60b3ebf994515df7985cb62a9d141467edf2f869272baf507dc83d9ba2e1b199",
+          "decimals": 18
+        },
         {
           "name": "Wrapped Ether",
           "symbol": "WETH",
